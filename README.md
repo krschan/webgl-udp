@@ -24,10 +24,12 @@
    Asignar al GameObject `UdpServerManager`:  
    - **Elementos de UI**:  
      - `InputField` para introducir mensajes.  
+     - ...
    - **Parámetros UDP**:  
      - Dirección IP (`string`).  
-     - Puerto (`int`).  
-
+     - Puerto (`int`).
+     - ...
+      
 5. **Integración con Botones**  
    - Arrastrar el GameObject `UdpServerManager` al evento `OnClick()` de los botones relevantes.  
    - Vincular a las funciones públicas de los scripts (ej: `SendMessage()` en `UdpClient`).
