@@ -42,6 +42,13 @@ Resolver la limitación de WebGL respecto a los sockets UDP, manteniendo una API
 ## Flujo de comunicación
 ![image](https://github.com/user-attachments/assets/1f3d0e96-fad4-4b1b-baec-e8d09cc12ffc)
 
+## Subida a WebGL y configuración de base de datos en la nube
+
+- Después de exportar el proyecto Unity como WebGL, se suben los archivos a un hosting web.
+- En este caso, se utilizó **awardspace.com** para alojar una base de datos en la nube.
+- Desde Awardspace se pueden gestionar archivos PHP que se conectan correctamente a la base de datos.
+- Esto permite que el frontend WebGL haga llamadas a los scripts PHP para interactuar con la base de datos remota.
+
 ## Características
 - Comunicación UDP bidireccional.
 - Compatible con WebGL.
